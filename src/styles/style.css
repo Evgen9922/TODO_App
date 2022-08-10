@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  min-height: 300px;
+  border: 4px outset #CCCCCC;
+  padding: 5px;
+}
+
+.mainlist {
+  width: 40%;
+  border-right: 2px solid #CCCCCC;
+}
+
+.modiflist {
+  width: 60%;
+  padding-left: 10px;
+}
+
+.modiflist__text {
+  width: 100%;
+}
+
+.btn-note {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */

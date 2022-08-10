@@ -1,0 +1,84 @@
+ * {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+li {
+ margin-bottom: 10px;
+ min-height: 35px;
+ padding: 0 5px;
+ padding-right: 20px;
+ border-radius: 3px;
+ list-style-type: none;
+ outline: 1px solid #4b4848;
+ background-image: url('../imgs/icon.png');
+ background-position: right top;
+ background-repeat: no-repeat;
+ background-size: 20px;
+ background-color: rgb(248, 239, 157);
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.li-compressed {
+ height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container {
+ display: flex;
+ margin: 0 auto;
+ width: 600px;
+ height: 500px;
+ border: 4px outset #CCCCCC;
+ padding: 5px;
+ background-color: rgb(243, 230, 214);
+}
+
+.notelist {
+ width: 60%;
+ border-right: 2px solid #CCCCCC;
+ padding-right: 10px;
+ padding-left: 3px;
+ overflow-y: scroll;
+}
+
+.new-note{
+ width: 40%;
+ padding-left: 10px;
+}
+
+.new-note__text {
+ width: 100%;
+ height: 70%;
+ padding: 0 10px;
+ font-size: 16px;
+}
+
+.newnote {
+display: block;
+}
+
+.btn-note {
+ margin: 0 auto;
+ margin-bottom: 10px;
+}
+
+.note-selected {
+ color: red;
+}
+
+.note-notselected {
+ display: none;
+}
+
+.note_editable {
+ color: blue;
+}
+
+.js-hide {
+ display: none;
+}
